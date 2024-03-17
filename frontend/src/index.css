@@ -1,0 +1,75 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 8px;
+    line-height: 24px;
+    font-weight: 200;
+    background-color: #eff2f5;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+}
+
+body {
+    margin: 5;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #e0eaf7;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.maindiv {
+    margin-top: 2%;
+    margin-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    resize: both;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-bottom: #16437E;
+    box-sizing: border-box;
+}
+
+
+/* CSS */
+button {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 70px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    overflow: hidden;
+    text-align: center;
+}
+
+button:hover,
+button:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.row {
+    padding: auto;
+}
+
+.form-control-lg {
+    max-width: 60%;
+}
+
+.bi-trash-fill {
+    color: red;
+}
+
+.i {
+    padding-left: 5px;
+}
